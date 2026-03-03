@@ -43,9 +43,9 @@
 
 | Nombre                | Rol principal            | Usuario GitHub |
 |-----------------------|--------------------------|------------|
-| David Quiroz Gonzalez | Líder Frontend / Backend | @Strikys12 |
-| Ana Marcela Gallego   | Frontend Lead            | @Amgallego |
+| David Quiroz Gonzalez | Backend / Base de datos  | @Strikys12 |
+| Ana Marcela Gallego   | UI Designer / QA         | @Amgallego |
 | Miguel Angel Muñoz    | Backend / Base de datos  | @MiguelM1004 |
-| Ana María Zapata      | UI Designer / QA         | @AnamZapa  |
+| Ana María Zapata      | Líder                    | @AnamZapa  |
 
 ---
