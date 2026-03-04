@@ -69,7 +69,7 @@ cd sistema-admisiones-nexus-grupo2
 
 
 **Configuración para PostgreSQL (Prisma Cloud):**
-# Configuración de la conexión
+
 ```properties
 spring.datasource.url=jdbc:postgresql://db.prisma.io:5432/postgres?sslmode=require
 spring.datasource.username=${DB_USER_NEXUS}
@@ -80,6 +80,19 @@ spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
+
+**Configuración para H2 (Para pruebas rápidas):**
+
+```properties
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+spring.jpa.hibernate.ddl-auto=update
+```
+
 
 
 ### 4. Ejecutar la aplicación
