@@ -1,6 +1,6 @@
 # Nexus
 
-Plataforma universitaria para la gestión digital de admisiones, oferta académica y control de matrículas.
+Plataforma universitaria para gestión de admisiones, oferta académica y matrículas.
 
 ## Introducción / Contexto
 
@@ -72,8 +72,8 @@ cd sistema-admisiones-nexus-grupo2
 # Configuración de la conexión
 ```properties
 spring.datasource.url=jdbc:postgresql://db.prisma.io:5432/postgres?sslmode=require
-spring.datasource.username=afbe3660994f8300a5512274c39fad928208254ccd7406e9207217deb1a01ee6
-spring.datasource.password=sk_NpmOqthHk6IVj2Ey4t79K
+spring.datasource.username=${DB_USER_NEXUS}
+spring.datasource.password=${DB_PASSWORD_NEXUS}
 spring.datasource.driver-class-name=org.postgresql.Driver
 
 # Configuración de JPA / Hibernate
